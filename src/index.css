@@ -1,15 +1,17 @@
 body {
  padding:50px;
- background-color: aqua;
- padding-bottom: 50px;
+
+ align-items: center;
+
 
 }
 h1{
-  color: brown;
+color:black
 }
 p{
-  color:blueviolet;
+  color:rgb(101, 111, 247);
   padding:10px;
+  margin: 10px;
 }
 
 

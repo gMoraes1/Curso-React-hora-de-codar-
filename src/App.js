@@ -1,15 +1,17 @@
 // App.js
 import './App.css';
-import Evento from './components/Evento'; // Certifique-se de que o caminho está correto
-import Formulario from './components/Formulario'; // Certifique-se de que o caminho está correto
+import './components/Condicional'
+import Condicional from './components/Condicional';
+
+
 
 function App() {
   return (
     <div className="App">
-      <h1>Testando os eventos</h1>
-      <Evento numero="1" />
-      <Evento numero="2" />
-      <Formulario />
+      <h1>Testando eventos condicionais</h1>
+     <Condicional/>
+  
+
     </div>
   );
 }
